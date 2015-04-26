@@ -1,0 +1,223 @@
+<GameProjectFile>
+  <PropertyGroup Type="Scene" Name="MenuScene" ID="3d096597-3323-4126-83a5-b1a0246d95f3" Version="2.1.5.0" />
+  <Content ctype="GameProjectContent">
+    <Content>
+      <Animation Duration="0" Speed="1.0000" />
+      <ObjectData Name="Scene" FrameEvent="" Tag="31" ctype="SingleNodeObjectData">
+        <Position X="0.0000" Y="0.0000" />
+        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+        <AnchorPoint />
+        <CColor A="255" R="255" G="255" B="255" />
+        <Size X="960.0000" Y="640.0000" />
+        <PrePosition X="0.0000" Y="0.0000" />
+        <PreSize X="0.0000" Y="0.0000" />
+        <Children>
+          <NodeObjectData Name="background" ActionTag="1299540026" FrameEvent="" Tag="32" LeftMargin="-19.0017" RightMargin="-18.9983" TopMargin="8.0015" BottomMargin="7.9985" ctype="SpriteObjectData">
+            <Position X="479.9983" Y="319.9985" />
+            <Scale ScaleX="0.9600" ScaleY="1.0300" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="998.0000" Y="624.0000" />
+            <PrePosition X="0.5000" Y="0.5000" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Menu/background.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="beginBtn" ActionTag="-1886036056" FrameEvent="" Tag="4" LeftMargin="760.4832" RightMargin="56.5168" TopMargin="-16.3066" BottomMargin="335.3066" TouchEnable="True" FontSize="36" ButtonText="begin" Scale9Enable="True" Scale9Width="143" Scale9Height="321" ctype="ButtonObjectData">
+            <Position X="831.9832" Y="495.8066" />
+            <Scale ScaleX="0.6000" ScaleY="0.6000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="143.0000" Y="321.0000" />
+            <PrePosition X="0.8666" Y="0.7747" />
+            <PreSize X="0.1490" Y="0.5016" />
+            <TextColor A="255" R="255" G="255" B="255" />
+            <DisabledFileData Type="Normal" Path="Menu/redHuluNormal.png" />
+            <PressedFileData Type="Normal" Path="Menu/redHuluSelected.png" />
+            <NormalFileData Type="Normal" Path="Menu/redHuluNormal.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="battleBtn" ActionTag="-472725344" FrameEvent="" Tag="5" LeftMargin="724.5377" RightMargin="176.4623" TopMargin="48.9282" BottomMargin="473.0718" TouchEnable="True" FontSize="24" ButtonText="battle" Scale9Enable="True" Scale9Width="59" Scale9Height="118" ctype="ButtonObjectData">
+            <Position X="754.0377" Y="532.0718" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="59.0000" Y="118.0000" />
+            <PrePosition X="0.7855" Y="0.8314" />
+            <PreSize X="0.0615" Y="0.1844" />
+            <TextColor A="255" R="255" G="255" B="255" />
+            <DisabledFileData Type="Normal" Path="Menu/yellowHuluSelected.png" />
+            <PressedFileData Type="Normal" Path="Menu/yellowHuLuSmall.png" />
+            <NormalFileData Type="Normal" Path="Menu/yellowHuluSelected.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="flower1" ActionTag="1754089133" FrameEvent="" Tag="14" LeftMargin="669.6881" RightMargin="170.3119" TopMargin="398.3429" BottomMargin="46.6571" ctype="SpriteObjectData">
+            <Position X="729.6881" Y="144.1571" />
+            <Scale ScaleX="0.3000" ScaleY="0.3000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="120.0000" Y="195.0000" />
+            <PrePosition X="0.7601" Y="0.2252" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Menu/flower.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="flower2" ActionTag="-1737659853" FrameEvent="" Tag="15" LeftMargin="655.2729" RightMargin="184.7271" TopMargin="405.4260" BottomMargin="39.5740" ctype="SpriteObjectData">
+            <Position X="715.2729" Y="137.0740" />
+            <Scale ScaleX="0.2500" ScaleY="0.2500" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="120.0000" Y="195.0000" />
+            <PrePosition X="0.7451" Y="0.2142" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="Menu/flower.png" />
+          </NodeObjectData>
+          <NodeObjectData Name="btnList" ActionTag="-639822565" FrameEvent="" Tag="25" LeftMargin="851.0000" RightMargin="51.0000" TopMargin="572.0000" BottomMargin="-268.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="58" Scale9Height="336" ctype="PanelObjectData">
+            <Position X="880.0000" Y="-100.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="58.0000" Y="336.0000" />
+            <PrePosition X="0.9167" Y="-0.1563" />
+            <PreSize X="0.0604" Y="0.5250" />
+            <Children>
+              <NodeObjectData Name="showBtn" ActionTag="1350171371" FrameEvent="" Tag="28" LeftMargin="10.0000" RightMargin="10.0000" TopMargin="24.0000" BottomMargin="288.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="38" Scale9Height="24" ctype="ButtonObjectData">
+                <Position X="29.0000" Y="300.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="38.0000" Y="24.0000" />
+                <PrePosition X="0.5000" Y="0.8929" />
+                <PreSize X="0.6552" Y="0.0714" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/btn/showSelected.png" />
+                <PressedFileData Type="Normal" Path="Menu/btn/showSelected.png" />
+                <NormalFileData Type="Normal" Path="Menu/btn/showBtn.png" />
+              </NodeObjectData>
+              <NodeObjectData Name="helpBtn" ActionTag="943740906" FrameEvent="" Tag="21" LeftMargin="14.0000" RightMargin="14.0000" TopMargin="75.0000" BottomMargin="219.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="30" Scale9Height="42" ctype="ButtonObjectData">
+                <Position X="29.0000" Y="240.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="30.0000" Y="42.0000" />
+                <PrePosition X="0.5000" Y="0.7143" />
+                <PreSize X="0.5172" Y="0.1250" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/btn/helpSelected.png" />
+                <PressedFileData Type="Normal" Path="Menu/btn/helpSelected.png" />
+                <NormalFileData Type="Normal" Path="Menu/btn/helpBtn.png" />
+              </NodeObjectData>
+              <NodeObjectData Name="infoBtn" ActionTag="-716728035" FrameEvent="" Tag="23" LeftMargin="5.5000" RightMargin="5.5000" TopMargin="133.0000" BottomMargin="157.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="47" Scale9Height="46" ctype="ButtonObjectData">
+                <Position X="29.0000" Y="180.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="47.0000" Y="46.0000" />
+                <PrePosition X="0.5000" Y="0.5357" />
+                <PreSize X="0.8103" Y="0.1369" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/btn/infoSelected.png" />
+                <PressedFileData Type="Normal" Path="Menu/btn/infoSelected.png" />
+                <NormalFileData Type="Normal" Path="Menu/btn/infoBtn.png" />
+              </NodeObjectData>
+              <NodeObjectData Name="settingBtn" ActionTag="602686065" ZOrder="1" FrameEvent="" Tag="22" LeftMargin="8.5000" RightMargin="8.5000" TopMargin="195.0000" BottomMargin="99.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="41" Scale9Height="42" ctype="ButtonObjectData">
+                <Position X="29.0000" Y="120.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="41.0000" Y="42.0000" />
+                <PrePosition X="0.5000" Y="0.3571" />
+                <PreSize X="0.7069" Y="0.1250" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/btn/settingSelected.png" />
+                <PressedFileData Type="Normal" Path="Menu/btn/settingSelected.png" />
+                <NormalFileData Type="Normal" Path="Menu/btn/settingBtn.png" />
+              </NodeObjectData>
+              <NodeObjectData Name="developerBtn" ActionTag="-212056068" FrameEvent="" Tag="48" LeftMargin="19.5000" RightMargin="19.5000" TopMargin="256.0000" BottomMargin="40.0000" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="19" Scale9Height="40" ctype="ButtonObjectData">
+                <Position X="29.0000" Y="60.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="19.0000" Y="40.0000" />
+                <PrePosition X="0.5000" Y="0.1786" />
+                <PreSize X="0.3276" Y="0.1190" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/btn/developerSelected.png" />
+                <PressedFileData Type="Normal" Path="Menu/btn/developerSelected.png" />
+                <NormalFileData Type="Normal" Path="Menu/btn/developerBtn.png" />
+              </NodeObjectData>
+            </Children>
+            <FileData Type="Normal" Path="Menu/btn/base.png" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </NodeObjectData>
+          <NodeObjectData Name="dialog" ActionTag="2027225704" FrameEvent="" Tag="41" LeftMargin="116.0000" RightMargin="116.0000" TopMargin="-559.0000" BottomMargin="721.0000" TouchEnable="True" ColorAngle="90.0000" Scale9Width="728" Scale9Height="478" ctype="PanelObjectData">
+            <Position X="480.0000" Y="960.0000" />
+            <Scale ScaleX="0.5000" ScaleY="0.5000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <Size X="728.0000" Y="478.0000" />
+            <PrePosition X="0.5000" Y="1.5000" />
+            <PreSize X="0.7583" Y="0.7469" />
+            <Children>
+              <NodeObjectData Name="title" ActionTag="252198500" FrameEvent="" Tag="45" LeftMargin="208.0000" RightMargin="208.0000" TopMargin="-35.0000" BottomMargin="427.0000" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="312" Scale9Height="86" ctype="PanelObjectData">
+                <Position X="364.0000" Y="470.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="312.0000" Y="86.0000" />
+                <PrePosition X="0.5000" Y="0.9833" />
+                <PreSize X="0.4286" Y="0.1799" />
+                <Children>
+                  <NodeObjectData Name="titleText" ActionTag="615299860" FrameEvent="" Tag="46" LeftMargin="68.5004" RightMargin="63.4996" TopMargin="16.7504" BottomMargin="29.2496" FontSize="40" LabelText="titleText" ctype="TextObjectData">
+                    <Position X="158.5004" Y="49.2496" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <CColor A="255" R="33" G="44" B="238" />
+                    <Size X="180.0000" Y="40.0000" />
+                    <PrePosition X="0.5080" Y="0.5727" />
+                    <PreSize X="0.5769" Y="0.4651" />
+                  </NodeObjectData>
+                </Children>
+                <FileData Type="Normal" Path="Menu/dialog/titleBg.png" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </NodeObjectData>
+              <NodeObjectData Name="closeDialog" ActionTag="-944222514" FrameEvent="" Tag="21" LeftMargin="634.5468" RightMargin="24.4532" TopMargin="22.7407" BottomMargin="384.2593" TouchEnable="True" FontSize="14" ButtonText="" Scale9Enable="True" Scale9Width="69" Scale9Height="71" ctype="ButtonObjectData">
+                <Position X="669.0468" Y="419.7593" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="69.0000" Y="71.0000" />
+                <PrePosition X="0.9190" Y="0.8782" />
+                <PreSize X="0.0948" Y="0.1485" />
+                <TextColor A="255" R="65" G="65" B="70" />
+                <DisabledFileData Type="Normal" Path="Menu/dialog/closeBtn.png" />
+                <PressedFileData Type="Normal" Path="Menu/dialog/closeBtn.png" />
+                <NormalFileData Type="Normal" Path="Menu/dialog/closeBtn.png" />
+              </NodeObjectData>
+              <NodeObjectData Name="body" ActionTag="1490240193" FrameEvent="" Tag="20" LeftMargin="114.0000" RightMargin="114.0000" TopMargin="118.0000" BottomMargin="60.0000" TouchEnable="True" BackColorAlpha="122" ColorAngle="90.0000" ctype="PanelObjectData">
+                <Position X="364.0000" Y="210.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <Size X="500.0000" Y="300.0000" />
+                <PrePosition X="0.5000" Y="0.4393" />
+                <PreSize X="0.6868" Y="0.6276" />
+                <SingleColor A="255" R="150" G="200" B="255" />
+                <FirstColor A="255" R="150" G="200" B="255" />
+                <EndColor A="255" R="255" G="255" B="255" />
+                <ColorVector ScaleY="1.0000" />
+              </NodeObjectData>
+            </Children>
+            <FileData Type="Normal" Path="Menu/dialog/panel.png" />
+            <SingleColor A="255" R="150" G="200" B="255" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </NodeObjectData>
+        </Children>
+      </ObjectData>
+    </Content>
+  </Content>
+</GameProjectFile>

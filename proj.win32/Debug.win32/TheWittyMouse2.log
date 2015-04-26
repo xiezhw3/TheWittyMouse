@@ -1,0 +1,62 @@
+﻿Build started 2015/3/31 1:17:01.
+     1>Project "C:\workspace\TheWittyMouse8\proj.win32\TheWittyMouse2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Classes /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\external" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\extensions" /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Progress.cpp
+         Progress.cpp
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(26): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(38): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(48): warning C4996: 'cocos2d::Node::setZOrder': was declared deprecated
+                 c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\ccnode.h(154) : see declaration of 'cocos2d::Node::setZOrder'
+                 c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\ccnode.h(154) : see declaration of 'cocos2d::Node::setZOrder'
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(93): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\workspace\thewittymouse8\classes\progress.cpp(106): warning C4305: 'argument' : truncation from 'double' to 'float'
+       PreLinkEvent:
+         if not exist "C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\" mkdir "C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.4rc1\prebuilt\win32\*.*" "C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 49 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\TheWittyMouse2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\ /LIBPATH:C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\TheWittyMouse2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\TheWittyMouse2.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\ActionController.obj
+         Debug.win32\AnimationUtils.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Cloud.obj
+         Debug.win32\CloudManager.obj
+         Debug.win32\CucrbitManage.obj
+         Debug.win32\Cucurbit.obj
+         Debug.win32\GameOver.obj
+         Debug.win32\HUDLayer.obj
+         Debug.win32\I18N.obj
+         Debug.win32\json_reader.obj
+         Debug.win32\json_value.obj
+         Debug.win32\json_writer.obj
+         Debug.win32\LoadingScene.obj
+         Debug.win32\MainScene.obj
+         Debug.win32\MenuScene.obj
+         Debug.win32\Mouse.obj
+         Debug.win32\MouseController.obj
+         Debug.win32\MouseRect.obj
+         Debug.win32\Network.obj
+         Debug.win32\NetWorkLayer.obj
+         Debug.win32\NetworkManager.obj
+         Debug.win32\Pause.obj
+         Debug.win32\Popup.obj
+         Debug.win32\Progress.obj
+         Debug.win32\Prop.obj
+         Debug.win32\PropContainer.obj
+         Debug.win32\PropManager.obj
+         Debug.win32\Skateboard.obj
+         Debug.win32\Snare.obj
+         Debug.win32\Util.obj
+         Debug.win32\WeatherInfo.obj
+         Debug.win32\Weather.obj
+         Debug.win32\WeatherManager.obj
+         Debug.win32\main.obj
+         TheWittyMouse2.vcxproj -> C:\workspace\TheWittyMouse8\proj.win32\Debug.win32\TheWittyMouse2.exe
+     1>Done Building Project "C:\workspace\TheWittyMouse8\proj.win32\TheWittyMouse2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.69

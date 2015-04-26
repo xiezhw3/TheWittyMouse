@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{fb9f9d37-7896-4737-b7ba-e3de4c33dbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mouse">
+      <UniqueIdentifier>{bbf2dadd-4d76-4d2d-8db7-aa4775a6f1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Prop">
+      <UniqueIdentifier>{bda315f2-9514-4d99-8772-2f4f4667d5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Json">
+      <UniqueIdentifier>{7036fed0-58f4-4134-a26c-42876a272432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{69bebab4-82c5-4a85-8a60-5701857e9ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HUD">
+      <UniqueIdentifier>{e7aaa15b-501c-44dd-a113-e905b811cf0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BPNetWork">
+      <UniqueIdentifier>{4beb46ad-a556-419b-ba4b-96eb68a59aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\I18N">
+      <UniqueIdentifier>{a1755ce4-ab11-4e65-ba94-44aef51c2d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{5664dafc-2be3-4278-ab98-16ad62726b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Cucrbit">
+      <UniqueIdentifier>{1da9ec86-b1f1-43c3-afcf-91efb420ca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Whether">
+      <UniqueIdentifier>{f58d839e-f432-4ba1-9a2e-d4aab669604e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameOver">
+      <UniqueIdentifier>{74e7b20f-2a77-4735-92fc-2cc74e45780a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Pause">
+      <UniqueIdentifier>{14c73e68-f735-4718-b484-28fe2013a42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Cloud">
+      <UniqueIdentifier>{890ba262-37f5-4791-83aa-faf404148732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Snare">
+      <UniqueIdentifier>{ffdc24ea-3c16-4770-9fde-c1bcfdda5608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Progress">
+      <UniqueIdentifier>{81f704b0-1fa6-4e0b-a4f9-8f977f77813b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Skateboard">
+      <UniqueIdentifier>{e06a070d-1b18-40ce-8173-2843db662fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Mouse\Popup">
+      <UniqueIdentifier>{9c7cc7f8-1a9d-4fd3-aeb3-0096a0c811d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionController.cpp">
+      <Filter>src\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mouse.cpp">
+      <Filter>src\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MouseRect.cpp">
+      <Filter>src\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop.cpp">
+      <Filter>src\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PropContainer.cpp">
+      <Filter>src\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PropManager.cpp">
+      <Filter>src\Prop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Popup.cpp">
+      <Filter>src\Mouse\Popup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Network.cpp">
+      <Filter>src\BPNetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWorkLayer.cpp">
+      <Filter>src\BPNetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HUDLayer.cpp">
+      <Filter>src\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\I18N.cpp">
+      <Filter>src\I18N</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationUtils.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CucrbitManage.cpp">
+      <Filter>src\Cucrbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cucurbit.cpp">
+      <Filter>src\Cucrbit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WeatherInfo.cpp">
+      <Filter>src\Whether</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOver.cpp">
+      <Filter>src\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_reader.cpp">
+      <Filter>src\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_value.cpp">
+      <Filter>src\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JSON\json_writer.cpp">
+      <Filter>src\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pause.cpp">
+      <Filter>src\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cloud.cpp">
+      <Filter>src\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CloudManager.cpp">
+      <Filter>src\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Weather.cpp">
+      <Filter>src\Whether</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WeatherManager.cpp">
+      <Filter>src\Whether</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Snare.cpp">
+      <Filter>src\Snare</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Progress.cpp">
+      <Filter>src\Progress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetworkManager.cpp">
+      <Filter>src\BPNetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MouseController.cpp">
+      <Filter>src\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skateboard.cpp">
+      <Filter>src\Skateboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionController.h">
+      <Filter>src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mouse.h">
+      <Filter>src\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MouseRect.h">
+      <Filter>src\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop.h">
+      <Filter>src\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PropContainer.h">
+      <Filter>src\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PropManager.h">
+      <Filter>src\Prop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Popup.h">
+      <Filter>src\Mouse\Popup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Network.h">
+      <Filter>src\BPNetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWorkLayer.h">
+      <Filter>src\BPNetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HUDLayer.h">
+      <Filter>src\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\I18N.h">
+      <Filter>src\I18N</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationUtils.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CucrbitManage.h">
+      <Filter>src\Cucrbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cucurbit.h">
+      <Filter>src\Cucrbit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WeatherInfo.h">
+      <Filter>src\Whether</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOver.h">
+      <Filter>src\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\autolink.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\config.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\features.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\forwards.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\json.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\json_batchallocator.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pause.h">
+      <Filter>src\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\value.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\writer.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JSON\reader.h">
+      <Filter>src\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cloud.h">
+      <Filter>src\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CloudManager.h">
+      <Filter>src\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Weather.h">
+      <Filter>src\Whether</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WeatherManager.h">
+      <Filter>src\Whether</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Snare.h">
+      <Filter>src\Snare</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Progress.h">
+      <Filter>src\Progress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetworkManager.h">
+      <Filter>src\BPNetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MouseUtil.h">
+      <Filter>src\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MouseController.h">
+      <Filter>src\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skateboard.h">
+      <Filter>src\Skateboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\JSON\json_internalarray.inl">
+      <Filter>src\Json</Filter>
+    </None>
+    <None Include="..\Classes\JSON\json_internalmap.inl">
+      <Filter>src\Json</Filter>
+    </None>
+    <None Include="..\Classes\JSON\json_valueiterator.inl">
+      <Filter>src\Json</Filter>
+    </None>
+    <None Include="..\Classes\JSON\sconscript">
+      <Filter>src\Json</Filter>
+    </None>
+  </ItemGroup>
+</Project>
